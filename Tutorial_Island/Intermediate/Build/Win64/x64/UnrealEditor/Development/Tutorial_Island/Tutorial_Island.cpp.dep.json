@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\kodyb\\documents\\unreal projects\\tutorial_island\\source\\tutorial_island\\tutorial_island.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\kodyb\\documents\\unreal projects\\tutorial_island\\intermediate\\build\\win64\\x64\\tutorial_islandeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
+        "Includes": [
+            "c:\\users\\kodyb\\documents\\unreal projects\\tutorial_island\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tutorial_island\\definitions.tutorial_island.h",
+            "c:\\users\\kodyb\\documents\\unreal projects\\tutorial_island\\source\\tutorial_island\\tutorial_island.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
