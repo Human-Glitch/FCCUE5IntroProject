@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Tutorial_Island",
-			"Path": "C:\\Users\\kodyb\\Documents\\Unreal Projects\\Tutorial_Island\\Source\\Tutorial_Island.Target.cs",
+			"Path": "D:\\Repos\\UnrealPlayground\\Tutorial_Island\\Source\\Tutorial_Island.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "Tutorial_IslandEditor",
-			"Path": "C:\\Users\\kodyb\\Documents\\Unreal Projects\\Tutorial_Island\\Source\\Tutorial_IslandEditor.Target.cs",
+			"Path": "D:\\Repos\\UnrealPlayground\\Tutorial_Island\\Source\\Tutorial_IslandEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

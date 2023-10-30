@@ -1179,3 +1179,12 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.10.29-18.43.57:955][  0]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
 [2023.10.29-19.22.19:878][  0]LogDerivedDataCache: C:/Users/kodyb/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.098 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1565 files in 2376 folders with total size 46 MiB.
 [2023.10.29-20.22.19:875][  0]LogDerivedDataCache: C:/Users/kodyb/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.093 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1565 files in 2376 folders with total size 46 MiB.
+[2023.10.29-21.05.45:757][  0]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.10.30-01.08.54:990][  0]LogDerivedDataCache: C:/Users/kodyb/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.067 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1771 files in 2672 folders with total size 57 MiB.
+[2023.10.30-01.23.48:096][  0]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.10.30-01.35.18:243][  0]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.10.30-02.04.15:467][  0]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.10.30-02.07.15:877][  0]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.10.30-02.08.33:717][  0]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.10.30-02.08.54:102][  0]LogDerivedDataCache: C:/Users/kodyb/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.179 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1776 files in 2682 folders with total size 57 MiB.
+[2023.10.30-02.24.28:267][  0]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1

@@ -1,12 +1,11 @@
-"C:\Users\kodyb\Documents\Unreal Projects\Tutorial_Island\Source\Tutorial_Island\Tutorial_Island.cpp"
+D:\Repos\UnrealPlayground\Tutorial_Island\Source\Tutorial_Island\Tutorial_Island.cpp
 /I .
-/I "C:\Users\kodyb\Documents\Unreal Projects\Tutorial_Island\Intermediate\Build\Win64\UnrealEditor\Inc\Tutorial_Island\UHT"
-/I "C:\Users\kodyb\Documents\Unreal Projects\Tutorial_Island\Source"
-/I Runtime\TraceLog\Public
-/I Runtime\Core\Public
-/I Runtime
+/I D:\Repos\UnrealPlayground\Tutorial_Island\Source\Tutorial_Island\Private
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\UHT
 /I Runtime\CoreUObject\Public
+/I Runtime
+/I Runtime\TraceLog\Public
+/I Runtime\Core\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\UHT
 /I ..\Shaders\Shared
 /I Runtime\Engine\Classes
@@ -274,21 +273,24 @@
 /I Runtime\MovieSceneCapture\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController\UHT
 /I Developer\AnimationDataController\Public
+/I D:\Repos\UnrealPlayground\Tutorial_Island\Intermediate\Build\Win64\UnrealEditor\Inc\Tutorial_Island\UHT
+/I D:\Repos\UnrealPlayground\Tutorial_Island\Source
+/I D:\Repos\UnrealPlayground\Tutorial_Island\Source\Tutorial_Island\Public
 /external:W0
 /external:I ThirdParty\mimalloc\include
 /external:I ThirdParty\LibTiff\Source\Win64
 /external:I ThirdParty\LibTiff\Source
-/external:I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\INCLUDE"
+/external:I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\INCLUDE"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
-/FI"C:\Users\kodyb\Documents\Unreal Projects\Tutorial_Island\Intermediate\Build\Win64\x64\Tutorial_IslandEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
-/FI"C:\Users\kodyb\Documents\Unreal Projects\Tutorial_Island\Intermediate\Build\Win64\x64\UnrealEditor\Development\Tutorial_Island\Definitions.Tutorial_Island.h"
-/Yu"C:\Users\kodyb\Documents\Unreal Projects\Tutorial_Island\Intermediate\Build\Win64\x64\Tutorial_IslandEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
-/Fp"C:\Users\kodyb\Documents\Unreal Projects\Tutorial_Island\Intermediate\Build\Win64\x64\Tutorial_IslandEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.pch"
-/Fo"C:\Users\kodyb\Documents\Unreal Projects\Tutorial_Island\Intermediate\Build\Win64\x64\UnrealEditor\Development\Tutorial_Island\Tutorial_Island.cpp.obj"
-/sourceDependencies "C:\Users\kodyb\Documents\Unreal Projects\Tutorial_Island\Intermediate\Build\Win64\x64\UnrealEditor\Development\Tutorial_Island\Tutorial_Island.cpp.dep.json"
+/FI"D:\Repos\UnrealPlayground\Tutorial_Island\Intermediate\Build\Win64\x64\Tutorial_IslandEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
+/FI"D:\Repos\UnrealPlayground\Tutorial_Island\Intermediate\Build\Win64\x64\UnrealEditor\Development\Tutorial_Island\Definitions.Tutorial_Island.h"
+/Yu"D:\Repos\UnrealPlayground\Tutorial_Island\Intermediate\Build\Win64\x64\Tutorial_IslandEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h"
+/Fp"D:\Repos\UnrealPlayground\Tutorial_Island\Intermediate\Build\Win64\x64\Tutorial_IslandEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.pch"
+/Fo"D:\Repos\UnrealPlayground\Tutorial_Island\Intermediate\Build\Win64\x64\UnrealEditor\Development\Tutorial_Island\Tutorial_Island.cpp.obj"
+/sourceDependencies D:\Repos\UnrealPlayground\Tutorial_Island\Intermediate\Build\Win64\x64\UnrealEditor\Development\Tutorial_Island\Tutorial_Island.cpp.dep.json
 /Zc:inline
 /nologo
 /Oi

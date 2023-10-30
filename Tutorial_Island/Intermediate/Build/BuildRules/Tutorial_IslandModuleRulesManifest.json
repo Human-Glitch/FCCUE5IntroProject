@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\kodyb\\Documents\\Unreal Projects\\Tutorial_Island\\Source\\Tutorial_Island\\Tutorial_Island.Build.cs",
-		"C:\\Users\\kodyb\\Documents\\Unreal Projects\\Tutorial_Island\\Source\\Tutorial_Island.Target.cs",
-		"C:\\Users\\kodyb\\Documents\\Unreal Projects\\Tutorial_Island\\Source\\Tutorial_IslandEditor.Target.cs"
+		"D:\\Repos\\UnrealPlayground\\Tutorial_Island\\Source\\Tutorial_Island\\Tutorial_Island.Build.cs",
+		"D:\\Repos\\UnrealPlayground\\Tutorial_Island\\Source\\Tutorial_Island.Target.cs",
+		"D:\\Repos\\UnrealPlayground\\Tutorial_Island\\Source\\Tutorial_IslandEditor.Target.cs"
 	],
 	"EngineVersion": "5.2.1"
 }

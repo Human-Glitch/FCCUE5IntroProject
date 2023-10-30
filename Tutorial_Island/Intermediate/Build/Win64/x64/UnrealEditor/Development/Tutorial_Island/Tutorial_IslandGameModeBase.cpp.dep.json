@@ -1,17 +1,17 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\kodyb\\documents\\unreal projects\\tutorial_island\\source\\tutorial_island\\tutorial_islandgamemodebase.cpp",
+        "Source": "d:\\repos\\unrealplayground\\tutorial_island\\source\\tutorial_island\\tutorial_islandgamemodebase.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\kodyb\\documents\\unreal projects\\tutorial_island\\intermediate\\build\\win64\\x64\\tutorial_islandeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
+        "PCH": "d:\\repos\\unrealplayground\\tutorial_island\\intermediate\\build\\win64\\x64\\tutorial_islandeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
         "Includes": [
-            "c:\\users\\kodyb\\documents\\unreal projects\\tutorial_island\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tutorial_island\\definitions.tutorial_island.h",
-            "c:\\users\\kodyb\\documents\\unreal projects\\tutorial_island\\source\\tutorial_island\\tutorial_islandgamemodebase.h",
+            "d:\\repos\\unrealplayground\\tutorial_island\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\tutorial_island\\definitions.tutorial_island.h",
+            "d:\\repos\\unrealplayground\\tutorial_island\\source\\tutorial_island\\tutorial_islandgamemodebase.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
-            "c:\\users\\kodyb\\documents\\unreal projects\\tutorial_island\\intermediate\\build\\win64\\unrealeditor\\inc\\tutorial_island\\uht\\tutorial_islandgamemodebase.generated.h"
+            "d:\\repos\\unrealplayground\\tutorial_island\\intermediate\\build\\win64\\unrealeditor\\inc\\tutorial_island\\uht\\tutorial_islandgamemodebase.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
