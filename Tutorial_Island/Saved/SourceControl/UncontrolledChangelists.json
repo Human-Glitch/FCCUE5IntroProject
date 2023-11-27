@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Content/Blueprints/BP_Character.uasset",
+				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Content/Blueprints/BP_Pickup.uasset",
+				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Content/Maps/Tutorial_Island.umap",
+				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Content/Maps/Tutorial_Island_BuiltData.uasset",
+				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Content/Materials/OurMaterial.uasset",
 				"D:/Repos/UnrealPlayground/Tutorial_Island/Content/Maps/Tutorial_Island.umap",
 				"D:/Repos/UnrealPlayground/Tutorial_Island/Content/FunctionLibraries/OurBlueprintFunctionLibrary.uasset",
 				"D:/Repos/UnrealPlayground/Tutorial_Island/Content/Materials/OurMaterial.uasset",
