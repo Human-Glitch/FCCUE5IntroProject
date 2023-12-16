@@ -21,6 +21,17 @@ void EmptyLinkFunctionForGeneratedCodeCPP_Character() {}
 		P_THIS->RemovePickup();
 		P_NATIVE_END;
 	}
+	struct CPP_Character_eventTestBPFunc_Parms
+	{
+		int32 x;
+	};
+	static FName NAME_ACPP_Character_TestBPFunc = FName(TEXT("TestBPFunc"));
+	void ACPP_Character::TestBPFunc(int32 x)
+	{
+		CPP_Character_eventTestBPFunc_Parms Parms;
+		Parms.x=x;
+		ProcessEvent(FindFunctionChecked(NAME_ACPP_Character_TestBPFunc),&Parms);
+	}
 	void ACPP_Character::StaticRegisterNativesACPP_Character()
 	{
 		UClass* Class = ACPP_Character::StaticClass();
@@ -51,6 +62,34 @@ void EmptyLinkFunctionForGeneratedCodeCPP_Character() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_ACPP_Character_TestBPFunc_Statics
+	{
+		static const UECodeGen_Private::FUnsizedIntPropertyParams NewProp_x;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_ACPP_Character_TestBPFunc_Statics::NewProp_x = { "x", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(CPP_Character_eventTestBPFunc_Parms, x), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ACPP_Character_TestBPFunc_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ACPP_Character_TestBPFunc_Statics::NewProp_x,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACPP_Character_TestBPFunc_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/CPP_Character.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ACPP_Character_TestBPFunc_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACPP_Character, nullptr, "TestBPFunc", nullptr, nullptr, sizeof(CPP_Character_eventTestBPFunc_Parms), Z_Construct_UFunction_ACPP_Character_TestBPFunc_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ACPP_Character_TestBPFunc_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACPP_Character_TestBPFunc_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ACPP_Character_TestBPFunc_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ACPP_Character_TestBPFunc()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ACPP_Character_TestBPFunc_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(ACPP_Character);
 	UClass* Z_Construct_UClass_ACPP_Character_NoRegister()
 	{
@@ -72,6 +111,7 @@ void EmptyLinkFunctionForGeneratedCodeCPP_Character() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ACPP_Character_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ACPP_Character_RemovePickup, "RemovePickup" }, // 227308208
+		{ &Z_Construct_UFunction_ACPP_Character_TestBPFunc, "TestBPFunc" }, // 707734348
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPP_Character_Statics::Class_MetaDataParams[] = {
@@ -117,9 +157,9 @@ void EmptyLinkFunctionForGeneratedCodeCPP_Character() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_kodybuss_Unreal_Projects_UnrealPlayground_Tutorial_Island_Source_Tutorial_Island_Public_CPP_Character_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ACPP_Character, ACPP_Character::StaticClass, TEXT("ACPP_Character"), &Z_Registration_Info_UClass_ACPP_Character, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACPP_Character), 1835630153U) },
+		{ Z_Construct_UClass_ACPP_Character, ACPP_Character::StaticClass, TEXT("ACPP_Character"), &Z_Registration_Info_UClass_ACPP_Character, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACPP_Character), 361790663U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_kodybuss_Unreal_Projects_UnrealPlayground_Tutorial_Island_Source_Tutorial_Island_Public_CPP_Character_h_4288308911(TEXT("/Script/Tutorial_Island"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_kodybuss_Unreal_Projects_UnrealPlayground_Tutorial_Island_Source_Tutorial_Island_Public_CPP_Character_h_58562369(TEXT("/Script/Tutorial_Island"),
 		Z_CompiledInDeferFile_FID_kodybuss_Unreal_Projects_UnrealPlayground_Tutorial_Island_Source_Tutorial_Island_Public_CPP_Character_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_kodybuss_Unreal_Projects_UnrealPlayground_Tutorial_Island_Source_Tutorial_Island_Public_CPP_Character_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

@@ -25,3 +25,8 @@ void ACPP_Pickup::Tick(float DeltaTime)
 
 }
 
+void ACPP_Pickup::Destruct()
+{
+	UKismetSystemLibrary::PrintString(this, "Destroyed pickup from CPP");
+	Destroy();
+}

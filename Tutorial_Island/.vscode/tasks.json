@@ -1,445 +1,471 @@
 {
-	"version": "2.0.0",
-	"tasks": [
-		{
-			"label": "Tutorial_Island Mac Debug Build",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"Tutorial_Island",
-				"Mac",
-				"Debug",
-				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_5.2"
-			}
-		},
-		{
-			"label": "Tutorial_Island Mac Debug Rebuild",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"Tutorial_Island",
-				"Mac",
-				"Debug",
-				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"Tutorial_Island Mac Debug Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_5.2"
-			}
-		},
-		{
-			"label": "Tutorial_Island Mac Debug Clean",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"Tutorial_Island",
-				"Mac",
-				"Debug",
-				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
-				"-waitmutex",
-				"-clean"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_5.2"
-			}
-		},
-		{
-			"label": "Tutorial_Island Mac DebugGame Build",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"Tutorial_Island",
-				"Mac",
-				"DebugGame",
-				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_5.2"
-			}
-		},
-		{
-			"label": "Tutorial_Island Mac DebugGame Rebuild",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"Tutorial_Island",
-				"Mac",
-				"DebugGame",
-				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"Tutorial_Island Mac DebugGame Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_5.2"
-			}
-		},
-		{
-			"label": "Tutorial_Island Mac DebugGame Clean",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"Tutorial_Island",
-				"Mac",
-				"DebugGame",
-				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
-				"-waitmutex",
-				"-clean"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_5.2"
-			}
-		},
-		{
-			"label": "Tutorial_Island Mac Development Build",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"Tutorial_Island",
-				"Mac",
-				"Development",
-				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_5.2"
-			}
-		},
-		{
-			"label": "Tutorial_Island Mac Development Rebuild",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"Tutorial_Island",
-				"Mac",
-				"Development",
-				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"Tutorial_Island Mac Development Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_5.2"
-			}
-		},
-		{
-			"label": "Tutorial_Island Mac Development Clean",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"Tutorial_Island",
-				"Mac",
-				"Development",
-				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
-				"-waitmutex",
-				"-clean"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_5.2"
-			}
-		},
-		{
-			"label": "Tutorial_Island Mac Test Build",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"Tutorial_Island",
-				"Mac",
-				"Test",
-				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_5.2"
-			}
-		},
-		{
-			"label": "Tutorial_Island Mac Test Rebuild",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"Tutorial_Island",
-				"Mac",
-				"Test",
-				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"Tutorial_Island Mac Test Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_5.2"
-			}
-		},
-		{
-			"label": "Tutorial_Island Mac Test Clean",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"Tutorial_Island",
-				"Mac",
-				"Test",
-				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
-				"-waitmutex",
-				"-clean"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_5.2"
-			}
-		},
-		{
-			"label": "Tutorial_Island Mac Shipping Build",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"Tutorial_Island",
-				"Mac",
-				"Shipping",
-				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_5.2"
-			}
-		},
-		{
-			"label": "Tutorial_Island Mac Shipping Rebuild",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"Tutorial_Island",
-				"Mac",
-				"Shipping",
-				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"Tutorial_Island Mac Shipping Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_5.2"
-			}
-		},
-		{
-			"label": "Tutorial_Island Mac Shipping Clean",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"Tutorial_Island",
-				"Mac",
-				"Shipping",
-				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
-				"-waitmutex",
-				"-clean"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_5.2"
-			}
-		},
-		{
-			"label": "Tutorial_IslandEditor Mac Debug Build",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"Tutorial_IslandEditor",
-				"Mac",
-				"Debug",
-				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_5.2"
-			}
-		},
-		{
-			"label": "Tutorial_IslandEditor Mac Debug Rebuild",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"Tutorial_IslandEditor",
-				"Mac",
-				"Debug",
-				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"Tutorial_IslandEditor Mac Debug Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_5.2"
-			}
-		},
-		{
-			"label": "Tutorial_IslandEditor Mac Debug Clean",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"Tutorial_IslandEditor",
-				"Mac",
-				"Debug",
-				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
-				"-waitmutex",
-				"-clean"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_5.2"
-			}
-		},
-		{
-			"label": "Tutorial_IslandEditor Mac DebugGame Build",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"Tutorial_IslandEditor",
-				"Mac",
-				"DebugGame",
-				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_5.2"
-			}
-		},
-		{
-			"label": "Tutorial_IslandEditor Mac DebugGame Rebuild",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"Tutorial_IslandEditor",
-				"Mac",
-				"DebugGame",
-				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"Tutorial_IslandEditor Mac DebugGame Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_5.2"
-			}
-		},
-		{
-			"label": "Tutorial_IslandEditor Mac DebugGame Clean",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"Tutorial_IslandEditor",
-				"Mac",
-				"DebugGame",
-				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
-				"-waitmutex",
-				"-clean"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_5.2"
-			}
-		},
-		{
-			"label": "Tutorial_IslandEditor Mac Development Build",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"Tutorial_IslandEditor",
-				"Mac",
-				"Development",
-				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_5.2"
-			}
-		},
-		{
-			"label": "Tutorial_IslandEditor Mac Development Rebuild",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"Tutorial_IslandEditor",
-				"Mac",
-				"Development",
-				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
-				"-waitmutex"
-			],
-			"problemMatcher": "$msCompile",
-			"dependsOn": [
-				"Tutorial_IslandEditor Mac Development Clean"
-			],
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_5.2"
-			}
-		},
-		{
-			"label": "Tutorial_IslandEditor Mac Development Clean",
-			"group": "build",
-			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
-			"args": [
-				"Tutorial_IslandEditor",
-				"Mac",
-				"Development",
-				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
-				"-waitmutex",
-				"-clean"
-			],
-			"problemMatcher": "$msCompile",
-			"type": "shell",
-			"options": {
-				"cwd": "/Users/Shared/Epic Games/UE_5.2"
-			}
-		}
-	]
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Tutorial_Island Mac Debug Build",
+            "group": "build",
+            "command": "Engine/Build/BatchFiles/Mac/Build.sh",
+            "args": [
+                "Tutorial_Island",
+                "Mac",
+                "Debug",
+                "/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
+                "-waitmutex"
+            ],
+            "problemMatcher": "$msCompile",
+            "type": "shell",
+            "options": {
+                "cwd": "/Users/Shared/Epic Games/UE_5.2"
+            }
+        },
+        {
+            "label": "Tutorial_Island Mac Debug Rebuild",
+            "group": "build",
+            "command": "Engine/Build/BatchFiles/Mac/Build.sh",
+            "args": [
+                "Tutorial_Island",
+                "Mac",
+                "Debug",
+                "/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
+                "-waitmutex"
+            ],
+            "problemMatcher": "$msCompile",
+            "dependsOn": [
+                "Tutorial_Island Mac Debug Clean"
+            ],
+            "type": "shell",
+            "options": {
+                "cwd": "/Users/Shared/Epic Games/UE_5.2"
+            }
+        },
+        {
+            "label": "Tutorial_Island Mac Debug Clean",
+            "group": "build",
+            "command": "Engine/Build/BatchFiles/Mac/Build.sh",
+            "args": [
+                "Tutorial_Island",
+                "Mac",
+                "Debug",
+                "/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
+                "-waitmutex",
+                "-clean"
+            ],
+            "problemMatcher": "$msCompile",
+            "type": "shell",
+            "options": {
+                "cwd": "/Users/Shared/Epic Games/UE_5.2"
+            }
+        },
+        {
+            "label": "Tutorial_Island Mac DebugGame Build",
+            "group": "build",
+            "command": "Engine/Build/BatchFiles/Mac/Build.sh",
+            "args": [
+                "Tutorial_Island",
+                "Mac",
+                "DebugGame",
+                "/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
+                "-waitmutex"
+            ],
+            "problemMatcher": "$msCompile",
+            "type": "shell",
+            "options": {
+                "cwd": "/Users/Shared/Epic Games/UE_5.2"
+            }
+        },
+        {
+            "label": "Tutorial_Island Mac DebugGame Rebuild",
+            "group": "build",
+            "command": "Engine/Build/BatchFiles/Mac/Build.sh",
+            "args": [
+                "Tutorial_Island",
+                "Mac",
+                "DebugGame",
+                "/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
+                "-waitmutex"
+            ],
+            "problemMatcher": "$msCompile",
+            "dependsOn": [
+                "Tutorial_Island Mac DebugGame Clean"
+            ],
+            "type": "shell",
+            "options": {
+                "cwd": "/Users/Shared/Epic Games/UE_5.2"
+            }
+        },
+        {
+            "label": "Tutorial_Island Mac DebugGame Clean",
+            "group": "build",
+            "command": "Engine/Build/BatchFiles/Mac/Build.sh",
+            "args": [
+                "Tutorial_Island",
+                "Mac",
+                "DebugGame",
+                "/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
+                "-waitmutex",
+                "-clean"
+            ],
+            "problemMatcher": "$msCompile",
+            "type": "shell",
+            "options": {
+                "cwd": "/Users/Shared/Epic Games/UE_5.2"
+            }
+        },
+        {
+            "label": "Tutorial_Island Mac Development Build",
+            "group": "build",
+            "command": "Engine/Build/BatchFiles/Mac/Build.sh",
+            "args": [
+                "Tutorial_Island",
+                "Mac",
+                "Development",
+                "/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
+                "-waitmutex"
+            ],
+            "problemMatcher": "$msCompile",
+            "type": "shell",
+            "options": {
+                "cwd": "/Users/Shared/Epic Games/UE_5.2"
+            }
+        },
+        {
+            "label": "Tutorial_Island Mac Development Rebuild",
+            "group": "build",
+            "command": "Engine/Build/BatchFiles/Mac/Build.sh",
+            "args": [
+                "Tutorial_Island",
+                "Mac",
+                "Development",
+                "/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
+                "-waitmutex"
+            ],
+            "problemMatcher": "$msCompile",
+            "dependsOn": [
+                "Tutorial_Island Mac Development Clean"
+            ],
+            "type": "shell",
+            "options": {
+                "cwd": "/Users/Shared/Epic Games/UE_5.2"
+            }
+        },
+        {
+            "label": "Tutorial_Island Mac Development Clean",
+            "group": "build",
+            "command": "Engine/Build/BatchFiles/Mac/Build.sh",
+            "args": [
+                "Tutorial_Island",
+                "Mac",
+                "Development",
+                "/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
+                "-waitmutex",
+                "-clean"
+            ],
+            "problemMatcher": "$msCompile",
+            "type": "shell",
+            "options": {
+                "cwd": "/Users/Shared/Epic Games/UE_5.2"
+            }
+        },
+        {
+            "label": "Tutorial_Island Mac Test Build",
+            "group": "build",
+            "command": "Engine/Build/BatchFiles/Mac/Build.sh",
+            "args": [
+                "Tutorial_Island",
+                "Mac",
+                "Test",
+                "/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
+                "-waitmutex"
+            ],
+            "problemMatcher": "$msCompile",
+            "type": "shell",
+            "options": {
+                "cwd": "/Users/Shared/Epic Games/UE_5.2"
+            }
+        },
+        {
+            "label": "Tutorial_Island Mac Test Rebuild",
+            "group": "build",
+            "command": "Engine/Build/BatchFiles/Mac/Build.sh",
+            "args": [
+                "Tutorial_Island",
+                "Mac",
+                "Test",
+                "/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
+                "-waitmutex"
+            ],
+            "problemMatcher": "$msCompile",
+            "dependsOn": [
+                "Tutorial_Island Mac Test Clean"
+            ],
+            "type": "shell",
+            "options": {
+                "cwd": "/Users/Shared/Epic Games/UE_5.2"
+            }
+        },
+        {
+            "label": "Tutorial_Island Mac Test Clean",
+            "group": "build",
+            "command": "Engine/Build/BatchFiles/Mac/Build.sh",
+            "args": [
+                "Tutorial_Island",
+                "Mac",
+                "Test",
+                "/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
+                "-waitmutex",
+                "-clean"
+            ],
+            "problemMatcher": "$msCompile",
+            "type": "shell",
+            "options": {
+                "cwd": "/Users/Shared/Epic Games/UE_5.2"
+            }
+        },
+        {
+            "label": "Tutorial_Island Mac Shipping Build",
+            "group": "build",
+            "command": "Engine/Build/BatchFiles/Mac/Build.sh",
+            "args": [
+                "Tutorial_Island",
+                "Mac",
+                "Shipping",
+                "/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
+                "-waitmutex"
+            ],
+            "problemMatcher": "$msCompile",
+            "type": "shell",
+            "options": {
+                "cwd": "/Users/Shared/Epic Games/UE_5.2"
+            }
+        },
+        {
+            "label": "Tutorial_Island Mac Shipping Rebuild",
+            "group": "build",
+            "command": "Engine/Build/BatchFiles/Mac/Build.sh",
+            "args": [
+                "Tutorial_Island",
+                "Mac",
+                "Shipping",
+                "/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
+                "-waitmutex"
+            ],
+            "problemMatcher": "$msCompile",
+            "dependsOn": [
+                "Tutorial_Island Mac Shipping Clean"
+            ],
+            "type": "shell",
+            "options": {
+                "cwd": "/Users/Shared/Epic Games/UE_5.2"
+            }
+        },
+        {
+            "label": "Tutorial_Island Mac Shipping Clean",
+            "group": "build",
+            "command": "Engine/Build/BatchFiles/Mac/Build.sh",
+            "args": [
+                "Tutorial_Island",
+                "Mac",
+                "Shipping",
+                "/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
+                "-waitmutex",
+                "-clean"
+            ],
+            "problemMatcher": "$msCompile",
+            "type": "shell",
+            "options": {
+                "cwd": "/Users/Shared/Epic Games/UE_5.2"
+            }
+        },
+        {
+            "label": "Tutorial_IslandEditor Mac Debug Build",
+            "group": "build",
+            "command": "Engine/Build/BatchFiles/Mac/Build.sh",
+            "args": [
+                "Tutorial_IslandEditor",
+                "Mac",
+                "Debug",
+                "/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
+                "-waitmutex"
+            ],
+            "problemMatcher": "$msCompile",
+            "type": "shell",
+            "options": {
+                "cwd": "/Users/Shared/Epic Games/UE_5.2"
+            }
+        },
+        {
+            "label": "Tutorial_IslandEditor Mac Debug Rebuild",
+            "group": "build",
+            "command": "Engine/Build/BatchFiles/Mac/Build.sh",
+            "args": [
+                "Tutorial_IslandEditor",
+                "Mac",
+                "Debug",
+                "/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
+                "-waitmutex"
+            ],
+            "problemMatcher": "$msCompile",
+            "dependsOn": [
+                "Tutorial_IslandEditor Mac Debug Clean"
+            ],
+            "type": "shell",
+            "options": {
+                "cwd": "/Users/Shared/Epic Games/UE_5.2"
+            }
+        },
+        {
+            "label": "Tutorial_IslandEditor Mac Debug Clean",
+            "group": "build",
+            "command": "Engine/Build/BatchFiles/Mac/Build.sh",
+            "args": [
+                "Tutorial_IslandEditor",
+                "Mac",
+                "Debug",
+                "/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
+                "-waitmutex",
+                "-clean"
+            ],
+            "problemMatcher": "$msCompile",
+            "type": "shell",
+            "options": {
+                "cwd": "/Users/Shared/Epic Games/UE_5.2"
+            }
+        },
+        {
+            "label": "Tutorial_IslandEditor Mac DebugGame Build",
+            "group": "build",
+            "command": "Engine/Build/BatchFiles/Mac/Build.sh",
+            "args": [
+                "Tutorial_IslandEditor",
+                "Mac",
+                "DebugGame",
+                "/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
+                "-waitmutex"
+            ],
+            "problemMatcher": "$msCompile",
+            "type": "shell",
+            "options": {
+                "cwd": "/Users/Shared/Epic Games/UE_5.2"
+            }
+        },
+        {
+            "label": "Tutorial_IslandEditor Mac DebugGame Rebuild",
+            "group": "build",
+            "command": "Engine/Build/BatchFiles/Mac/Build.sh",
+            "args": [
+                "Tutorial_IslandEditor",
+                "Mac",
+                "DebugGame",
+                "/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
+                "-waitmutex"
+            ],
+            "problemMatcher": "$msCompile",
+            "dependsOn": [
+                "Tutorial_IslandEditor Mac DebugGame Clean"
+            ],
+            "type": "shell",
+            "options": {
+                "cwd": "/Users/Shared/Epic Games/UE_5.2"
+            }
+        },
+        {
+            "label": "Tutorial_IslandEditor Mac DebugGame Clean",
+            "group": "build",
+            "command": "Engine/Build/BatchFiles/Mac/Build.sh",
+            "args": [
+                "Tutorial_IslandEditor",
+                "Mac",
+                "DebugGame",
+                "/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
+                "-waitmutex",
+                "-clean"
+            ],
+            "problemMatcher": "$msCompile",
+            "type": "shell",
+            "options": {
+                "cwd": "/Users/Shared/Epic Games/UE_5.2"
+            }
+        },
+        {
+            "label": "Tutorial_IslandEditor Mac Development Build",
+            "group": "build",
+            "command": "Engine/Build/BatchFiles/Mac/Build.sh",
+            "args": [
+                "Tutorial_IslandEditor",
+                "Mac",
+                "Development",
+                "/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
+                "-waitmutex"
+            ],
+            "problemMatcher": "$msCompile",
+            "type": "shell",
+            "options": {
+                "cwd": "/Users/Shared/Epic Games/UE_5.2"
+            }
+        },
+        {
+            "label": "Tutorial_IslandEditor Mac Development Rebuild",
+            "group": "build",
+            "command": "Engine/Build/BatchFiles/Mac/Build.sh",
+            "args": [
+                "Tutorial_IslandEditor",
+                "Mac",
+                "Development",
+                "/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
+                "-waitmutex"
+            ],
+            "problemMatcher": "$msCompile",
+            "dependsOn": [
+                "Tutorial_IslandEditor Mac Development Clean"
+            ],
+            "type": "shell",
+            "options": {
+                "cwd": "/Users/Shared/Epic Games/UE_5.2"
+            }
+        },
+        {
+            "label": "Tutorial_IslandEditor Mac Development Clean",
+            "group": "build",
+            "command": "Engine/Build/BatchFiles/Mac/Build.sh",
+            "args": [
+                "Tutorial_IslandEditor",
+                "Mac",
+                "Development",
+                "/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Tutorial_Island.uproject",
+                "-waitmutex",
+                "-clean"
+            ],
+            "problemMatcher": "$msCompile",
+            "type": "shell",
+            "options": {
+                "cwd": "/Users/Shared/Epic Games/UE_5.2"
+            }
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: clang++ build active file",
+            "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+            "args": [
+                "-fcolor-diagnostics",
+                "-fansi-escape-codes",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-isysroot",
+                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Task generated by Debugger."
+        }
+    ]
 }

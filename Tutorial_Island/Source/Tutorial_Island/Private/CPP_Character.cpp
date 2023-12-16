@@ -67,10 +67,10 @@ void ACPP_Character::RemovePickup()
 
 	if(Hit.GetActor())
 	{
-		if(Cast<ACPP_Pickup>(Hit.GetActor()))
+		if(Cast<IMyInterface>(Hit.GetActor()))
 		{
-			Hit.GetActor()->Destroy();
-			UKismetSystemLibrary::PrintString(this, "Destroyed a Pickup");
+			auto TEMP = Cast<IMyInterface>(Hit.GetActor());
+			TEMP->Destruct();
 		}
 	}
 }

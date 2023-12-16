@@ -12,6 +12,7 @@ void EmptyLinkFunctionForGeneratedCodeCPP_Pickup() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	TUTORIAL_ISLAND_API UClass* Z_Construct_UClass_ACPP_Pickup();
 	TUTORIAL_ISLAND_API UClass* Z_Construct_UClass_ACPP_Pickup_NoRegister();
+	TUTORIAL_ISLAND_API UClass* Z_Construct_UClass_UMyInterface_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_Tutorial_Island();
 // End Cross Module References
 	void ACPP_Pickup::StaticRegisterNativesACPP_Pickup()
@@ -28,6 +29,7 @@ void EmptyLinkFunctionForGeneratedCodeCPP_Pickup() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+		static const UECodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
@@ -41,6 +43,9 @@ void EmptyLinkFunctionForGeneratedCodeCPP_Pickup() {}
 		{ "ModuleRelativePath", "Public/CPP_Pickup.h" },
 	};
 #endif
+		const UECodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_ACPP_Pickup_Statics::InterfaceParams[] = {
+			{ Z_Construct_UClass_UMyInterface_NoRegister, (int32)VTABLE_OFFSET(ACPP_Pickup, IMyInterface), false },  // 1638753654
+		};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACPP_Pickup_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ACPP_Pickup>::IsAbstract,
 	};
@@ -51,11 +56,11 @@ void EmptyLinkFunctionForGeneratedCodeCPP_Pickup() {}
 		DependentSingletons,
 		nullptr,
 		nullptr,
-		nullptr,
+		InterfaceParams,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
 		0,
-		0,
+		UE_ARRAY_COUNT(InterfaceParams),
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_ACPP_Pickup_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_Pickup_Statics::Class_MetaDataParams))
 	};
@@ -78,9 +83,9 @@ void EmptyLinkFunctionForGeneratedCodeCPP_Pickup() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_kodybuss_Unreal_Projects_UnrealPlayground_Tutorial_Island_Source_Tutorial_Island_Public_CPP_Pickup_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ACPP_Pickup, ACPP_Pickup::StaticClass, TEXT("ACPP_Pickup"), &Z_Registration_Info_UClass_ACPP_Pickup, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACPP_Pickup), 3511786352U) },
+		{ Z_Construct_UClass_ACPP_Pickup, ACPP_Pickup::StaticClass, TEXT("ACPP_Pickup"), &Z_Registration_Info_UClass_ACPP_Pickup, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACPP_Pickup), 279620382U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_kodybuss_Unreal_Projects_UnrealPlayground_Tutorial_Island_Source_Tutorial_Island_Public_CPP_Pickup_h_4177865351(TEXT("/Script/Tutorial_Island"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_kodybuss_Unreal_Projects_UnrealPlayground_Tutorial_Island_Source_Tutorial_Island_Public_CPP_Pickup_h_933815451(TEXT("/Script/Tutorial_Island"),
 		Z_CompiledInDeferFile_FID_kodybuss_Unreal_Projects_UnrealPlayground_Tutorial_Island_Source_Tutorial_Island_Public_CPP_Pickup_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_kodybuss_Unreal_Projects_UnrealPlayground_Tutorial_Island_Source_Tutorial_Island_Public_CPP_Pickup_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

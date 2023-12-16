@@ -1,0 +1,22 @@
+#!/bin/sh
+cd "/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Binaries/Mac"
+mkdir -p "Tutorial_Island.app/Contents/MacOS"
+mkdir -p "Tutorial_Island.app/Contents/Resources"
+rsync --checksum "/Users/Shared/Epic Games/UE_5.2/Engine/Source/Runtime/Launch/Resources/Mac/UnrealEngine.icns" "Tutorial_Island.app/Contents/Resources/Tutorial_Island.icns"
+rsync --checksum "/Users/Shared/Epic Games/UE_5.2/Engine/Source/Runtime/Launch/Resources/Mac/Info.plist" "$TMPDIR/TempInfo.plist"
+/usr/bin/sed -i "" -e "s/\${EXECUTABLE_NAME}/Tutorial_Island/g" "$TMPDIR/TempInfo.plist"
+/usr/bin/sed -i "" -e "s/\${APP_NAME}/com.YourCompany.TutorialIsland/g" "$TMPDIR/TempInfo.plist"
+/usr/bin/sed -i "" -e "s/\${MACOSX_DEPLOYMENT_TARGET}/10.15.7/g" "$TMPDIR/TempInfo.plist"
+/usr/bin/sed -i "" -e "s/\${ICON_NAME}/Tutorial_Island/g" "$TMPDIR/TempInfo.plist"
+/usr/bin/sed -i "" -e "s/\${BUNDLE_VERSION}/5.2.1/g" "$TMPDIR/TempInfo.plist"
+rsync --checksum "$TMPDIR/TempInfo.plist" "Tutorial_Island.app/Contents/Info.plist"
+chmod 644 "Tutorial_Island.app/Contents/Info.plist"
+mkdir -p "/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Intermediate/Mac"
+rsync --checksum "$TMPDIR/TempInfo.plist" "/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Intermediate/Mac/Tutorial_Island-Info.plist"
+chmod 644 "/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Intermediate/Mac/Tutorial_Island-Info.plist"
+echo 'echo -n "APPL????"' | bash > "$TMPDIR/TempPkgInfo"
+rsync --checksum "$TMPDIR/TempPkgInfo" "Tutorial_Island.app/Contents/PkgInfo"
+touch -c "Tutorial_Island.app"
+codesign -f -s - "Tutorial_Island.app"
+codesign -f -s "Developer ID Application" "Tutorial_Island.app" 2> /dev/null
+echo done > /dev/null
