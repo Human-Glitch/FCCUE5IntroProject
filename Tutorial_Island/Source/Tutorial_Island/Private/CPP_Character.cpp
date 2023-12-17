@@ -8,7 +8,21 @@ ACPP_Character::ACPP_Character()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+	OurIntArray = {223, 34};
 
+	OurIntArray.Reserve(6);
+	OurIntArray.Add(12);
+	OurIntArray.Emplace(244);
+	OurIntArray.Remove(12);
+	OurIntArray.RemoveAt(0);
+	
+	for(auto& element : OurIntArray){
+		UKismetSystemLibrary::PrintString(this, FString::FromInt(element));
+	}
+
+	for (int i = 0; i < OurIntArray.Num(); i++){
+		UKismetSystemLibrary::PrintString(this, FString::SanitizeFloat(i));
+	}
 }
 
 // Called when the game starts or when spawned

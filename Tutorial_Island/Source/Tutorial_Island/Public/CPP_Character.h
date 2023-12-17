@@ -31,4 +31,7 @@ public:
 
 	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
 		void TestBPFunc(int x);
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		TArray<int> OurIntArray;
 };
