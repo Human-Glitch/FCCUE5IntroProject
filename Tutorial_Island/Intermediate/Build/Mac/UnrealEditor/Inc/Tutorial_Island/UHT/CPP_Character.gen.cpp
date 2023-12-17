@@ -107,6 +107,12 @@ void EmptyLinkFunctionForGeneratedCodeCPP_Character() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_OurIntArray_MetaData[];
 #endif
 		static const UECodeGen_Private::FArrayPropertyParams NewProp_OurIntArray;
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_OurMap_ValueProp;
+		static const UECodeGen_Private::FStrPropertyParams NewProp_OurMap_Key_KeyProp;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_OurMap_MetaData[];
+#endif
+		static const UECodeGen_Private::FMapPropertyParams NewProp_OurMap;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -134,9 +140,21 @@ void EmptyLinkFunctionForGeneratedCodeCPP_Character() {}
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ACPP_Character_Statics::NewProp_OurIntArray = { "OurIntArray", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ACPP_Character, OurIntArray), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_ACPP_Character_Statics::NewProp_OurIntArray_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_Character_Statics::NewProp_OurIntArray_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACPP_Character_Statics::NewProp_OurMap_ValueProp = { "OurMap", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 1, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_ACPP_Character_Statics::NewProp_OurMap_Key_KeyProp = { "OurMap_Key", nullptr, (EPropertyFlags)0x0000000000000001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACPP_Character_Statics::NewProp_OurMap_MetaData[] = {
+		{ "Category", "CPP_Character" },
+		{ "ModuleRelativePath", "Public/CPP_Character.h" },
+	};
+#endif
+	const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_ACPP_Character_Statics::NewProp_OurMap = { "OurMap", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ACPP_Character, OurMap), EMapPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_ACPP_Character_Statics::NewProp_OurMap_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACPP_Character_Statics::NewProp_OurMap_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACPP_Character_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_Character_Statics::NewProp_OurIntArray_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_Character_Statics::NewProp_OurIntArray,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_Character_Statics::NewProp_OurMap_ValueProp,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_Character_Statics::NewProp_OurMap_Key_KeyProp,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACPP_Character_Statics::NewProp_OurMap,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACPP_Character_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ACPP_Character>::IsAbstract,
@@ -175,9 +193,9 @@ void EmptyLinkFunctionForGeneratedCodeCPP_Character() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_kodybuss_Unreal_Projects_UnrealPlayground_Tutorial_Island_Source_Tutorial_Island_Public_CPP_Character_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ACPP_Character, ACPP_Character::StaticClass, TEXT("ACPP_Character"), &Z_Registration_Info_UClass_ACPP_Character, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACPP_Character), 54258094U) },
+		{ Z_Construct_UClass_ACPP_Character, ACPP_Character::StaticClass, TEXT("ACPP_Character"), &Z_Registration_Info_UClass_ACPP_Character, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACPP_Character), 2402749503U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_kodybuss_Unreal_Projects_UnrealPlayground_Tutorial_Island_Source_Tutorial_Island_Public_CPP_Character_h_4088031347(TEXT("/Script/Tutorial_Island"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_kodybuss_Unreal_Projects_UnrealPlayground_Tutorial_Island_Source_Tutorial_Island_Public_CPP_Character_h_2744457642(TEXT("/Script/Tutorial_Island"),
 		Z_CompiledInDeferFile_FID_kodybuss_Unreal_Projects_UnrealPlayground_Tutorial_Island_Source_Tutorial_Island_Public_CPP_Character_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_kodybuss_Unreal_Projects_UnrealPlayground_Tutorial_Island_Source_Tutorial_Island_Public_CPP_Character_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

@@ -10,28 +10,31 @@
 UCLASS()
 class TUTORIAL_ISLAND_API ACPP_Character : public ACharacter
 {
-	GENERATED_BODY()
+    GENERATED_BODY()
 
 public:
-	// Sets default values for this character's properties
-	ACPP_Character();
+    // Sets default values for this character's properties
+    ACPP_Character();
 
 protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+    // Called when the game starts or when spawned
+    virtual void BeginPlay() override;
 
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+public: 
+    // Called every frame
+    virtual void Tick(float DeltaTime) override;
 
-	// Called to bind functionality to input
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-	UFUNCTION(BlueprintCallable)
-		void RemovePickup();
+    // Called to bind functionality to input
+    virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+    UFUNCTION(BlueprintCallable)
+        void RemovePickup();
 
-	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-		void TestBPFunc(int x);
+    UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+        void TestBPFunc(int x);
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-		TArray<int> OurIntArray;
+    UPROPERTY(BlueprintReadWrite, EditAnywhere)
+        TArray<int> OurIntArray;
+
+    UPROPERTY(BlueprintReadWrite, EditAnywhere)
+        TMap<FString, float> OurMap;
 };
