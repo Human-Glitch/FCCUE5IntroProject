@@ -3769,4 +3769,6 @@
   /Users/kodybuss/Unreal\ Projects/UnrealPlayground/Tutorial_Island/Source/Tutorial_Island/Public/MyInterface.h \
   /Users/kodybuss/Unreal\ Projects/UnrealPlayground/Tutorial_Island/Intermediate/Build/Mac/UnrealEditor/Inc/Tutorial_Island/UHT/MyInterface.generated.h \
   /Users/kodybuss/Unreal\ Projects/UnrealPlayground/Tutorial_Island/Intermediate/Build/Mac/UnrealEditor/Inc/Tutorial_Island/UHT/CPP_Pickup.generated.h \
+  /Users/kodybuss/Unreal\ Projects/UnrealPlayground/Tutorial_Island/Source/Tutorial_Island/Public/CPP_InteractionActor.h \
+  /Users/kodybuss/Unreal\ Projects/UnrealPlayground/Tutorial_Island/Intermediate/Build/Mac/UnrealEditor/Inc/Tutorial_Island/UHT/CPP_InteractionActor.generated.h \
   /Users/kodybuss/Unreal\ Projects/UnrealPlayground/Tutorial_Island/Intermediate/Build/Mac/UnrealEditor/Inc/Tutorial_Island/UHT/CPP_Character.generated.h

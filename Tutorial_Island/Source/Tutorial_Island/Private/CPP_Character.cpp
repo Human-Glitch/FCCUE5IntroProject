@@ -17,34 +17,41 @@ ACPP_Character::ACPP_Character()
 void ACPP_Character::BeginPlay()
 {
     Super::BeginPlay();
+
+    if(IsValid(ActorToSpawn)){
+        auto temp = GetWorld()->SpawnActor<ACPP_InteractionActor>();
+        auto temp1 = GetWorld()->SpawnActorDeferred<ACPP_InteractionActor>(ActorToSpawn, FTransform());
+        temp1->SomeVariable = 100;
+        temp1->FinishSpawning(FTransform());
+    }
+
+    // OurIntArray.Reserve(6);
+    // OurIntArray.Add(12);
+    // OurIntArray.Emplace(244);
+    // OurIntArray.Remove(12);
+    // OurIntArray.RemoveAt(0);
+
+    // // common
+    // for(auto& element : OurIntArray)
+    // {
+    //     UKismetSystemLibrary::PrintString(this, FString::FromInt(element));
+    // }
+
+    // // basic
+    // for (int i = 0; i < OurIntArray.Num(); i++){
+    //     UKismetSystemLibrary::PrintString(this, FString::SanitizeFloat(OurIntArray[i]));
+    // }
+
+    // OurMap.Add("Num1", 43.14);
     
-    OurIntArray.Reserve(6);
-    OurIntArray.Add(12);
-    OurIntArray.Emplace(244);
-    OurIntArray.Remove(12);
-    OurIntArray.RemoveAt(0);
+    // for(auto& element : OurMap)
+    // {
+    //     FString temp = element.Key;
+    //     temp.Append(" : ");
+    //     temp.Append(FString::SanitizeFloat(element.Value));
 
-    // common
-    for(auto& element : OurIntArray)
-    {
-        UKismetSystemLibrary::PrintString(this, FString::FromInt(element));
-    }
-
-    // basic
-    for (int i = 0; i < OurIntArray.Num(); i++){
-        UKismetSystemLibrary::PrintString(this, FString::SanitizeFloat(OurIntArray[i]));
-    }
-
-    OurMap.Add("Num1", 43.14);
-    
-    for(auto& element : OurMap)
-    {
-        FString temp = element.Key;
-        temp.Append(" : ");
-        temp.Append(FString::SanitizeFloat(element.Value));
-
-        UKismetSystemLibrary::PrintString(this, temp);
-    }
+    //     UKismetSystemLibrary::PrintString(this, temp);
+    // }
 }
 
 // Called every frame
