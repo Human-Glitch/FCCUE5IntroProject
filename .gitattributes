@@ -1,1 +1,3 @@
 *.vcxproj filter=lfs diff=lfs merge=lfs -text
+manifest.json filter=lfs diff=lfs merge=lfs -text
+Tutorial_Island/Intermediate/ProjectFiles/build/XCBuildData/71ccee93ea6f886214bb4e67e948a3c2.xcbuilddata/manifest.json filter=lfs diff=lfs merge=lfs -text

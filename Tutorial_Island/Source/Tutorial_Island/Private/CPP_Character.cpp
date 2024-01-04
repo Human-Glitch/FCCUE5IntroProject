@@ -23,6 +23,10 @@ void ACPP_Character::BeginPlay()
         auto temp1 = GetWorld()->SpawnActorDeferred<ACPP_InteractionActor>(ActorToSpawn, FTransform());
         temp1->SomeVariable = 100;
         temp1->FinishSpawning(FTransform());
+        
+        if (IsValid(temp)) {
+            // nothing
+        }
     }
 
     // OurIntArray.Reserve(6);

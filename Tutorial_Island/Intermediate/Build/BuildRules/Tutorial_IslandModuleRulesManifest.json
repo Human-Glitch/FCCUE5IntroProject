@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Source/Tutorial_Island/Tutorial_Island.Build.cs",
-		"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Source/Tutorial_Island.Target.cs",
-		"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Source/Tutorial_IslandEditor.Target.cs"
-	],
-	"EngineVersion": "5.2.1"
-}
