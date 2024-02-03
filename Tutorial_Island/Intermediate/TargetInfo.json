@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Tutorial_Island",
+			"Path": "/Users/kodybuss/Unreal Projects/Unreal5FreeCodeCampTutorial/Tutorial_Island/Source/Tutorial_Island.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Tutorial_IslandEditor",
+			"Path": "/Users/kodybuss/Unreal Projects/Unreal5FreeCodeCampTutorial/Tutorial_Island/Source/Tutorial_IslandEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

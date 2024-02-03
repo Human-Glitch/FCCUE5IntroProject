@@ -3272,6 +3272,14 @@
 		{
 			"Path": "$(ProjectDir)/Binaries/Mac/UnrealEditor.modules",
 			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/TestPlugin/Binaries/Mac/UnrealEditor-TestPlugin.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/TestPlugin/Binaries/Mac/UnrealEditor.modules",
+			"Type": "RequiredResource"
 		}
 	],
 	"RuntimeDependencies": [
@@ -20485,6 +20493,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/VirtualProduction/Takes/Takes.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/TestPlugin/TestPlugin.uplugin",
 			"Type": "UFS"
 		},
 		{

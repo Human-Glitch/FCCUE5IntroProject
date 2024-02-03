@@ -5,6 +5,7 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"/Users/kodybuss/Unreal Projects/Unreal5FreeCodeCampTutorial/Tutorial_Island/Plugins/TestPlugin/Content/SomeActor.uasset",
 				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Content/Blueprints/BP_Character.uasset",
 				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Content/Blueprints/BP_Pickup.uasset",
 				"/Users/kodybuss/Unreal Projects/UnrealPlayground/Tutorial_Island/Content/Maps/Tutorial_Island.umap",

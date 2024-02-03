@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"/Users/kodybuss/Unreal Projects/Unreal5FreeCodeCampTutorial/Tutorial_Island/Source/Tutorial_Island/Tutorial_Island.Build.cs",
+		"/Users/kodybuss/Unreal Projects/Unreal5FreeCodeCampTutorial/Tutorial_Island/Plugins/TestPlugin/Source/TestPlugin/TestPlugin.Build.cs",
+		"/Users/kodybuss/Unreal Projects/Unreal5FreeCodeCampTutorial/Tutorial_Island/Source/Tutorial_Island.Target.cs",
+		"/Users/kodybuss/Unreal Projects/Unreal5FreeCodeCampTutorial/Tutorial_Island/Source/Tutorial_IslandEditor.Target.cs"
+	],
+	"EngineVersion": "5.2.1"
+}
